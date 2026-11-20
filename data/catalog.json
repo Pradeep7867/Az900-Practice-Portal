@@ -1,0 +1,280 @@
+{
+  "phases": [
+    {
+      "id": "phase-1",
+      "number": "01",
+      "title": "Cloud Concepts",
+      "subtitle": "Understand the foundations of cloud computing and the cloud service models.",
+      "description": "Start with the fundamentals: what cloud computing means, why organizations use it, and how cloud services are delivered.",
+      "episodes": [
+        {
+          "id": "ep-00",
+          "number": 0,
+          "title": "Course Overview",
+          "description": "Understand the learning path and exam preparation approach."
+        },
+        {
+          "id": "ep-01",
+          "number": 1,
+          "title": "Cloud Computing, High Availability, Scalability, Elasticity, Agility, Fault Tolerance, and Disaster Recovery",
+          "description": "Core cloud concepts and the benefits of cloud computing."
+        },
+        {
+          "id": "ep-02",
+          "number": 2,
+          "title": "Principles of Economies of Scale",
+          "description": "How shared infrastructure and large-scale operations can reduce costs."
+        },
+        {
+          "id": "ep-03",
+          "number": 3,
+          "title": "Capital Expenditure (CapEx) vs Operational Expenditure (OpEx)",
+          "description": "Compare upfront infrastructure spending with ongoing operating costs."
+        },
+        {
+          "id": "ep-04",
+          "number": 4,
+          "title": "Consumption-based Model",
+          "description": "Understand paying for the resources and services you use."
+        },
+        {
+          "id": "ep-05",
+          "number": 5,
+          "title": "IaaS, PaaS, SaaS and their differences",
+          "description": "Compare the three main cloud service models and their responsibilities."
+        },
+        {
+          "id": "ep-06",
+          "number": 6,
+          "title": "Public, Private, Hybrid cloud and their differences",
+          "description": "Choose a cloud deployment model based on ownership and access."
+        }
+      ]
+    },
+    {
+      "id": "phase-2",
+      "number": "02",
+      "title": "Azure Architecture & Services",
+      "subtitle": "Explore Azure's global infrastructure and core services.",
+      "description": "Learn how Azure is organized and identify the compute, networking, storage, data, and platform services available.",
+      "episodes": [
+        {
+          "id": "ep-07",
+          "number": 7,
+          "title": "Azure Regions and Availability Zones",
+          "description": "Azure's global datacenter geography and resiliency options."
+        },
+        {
+          "id": "ep-08",
+          "number": 8,
+          "title": "Azure Resource Groups and Resource Manager",
+          "description": "Organize, deploy, and manage Azure resources."
+        },
+        {
+          "id": "ep-09",
+          "number": 9,
+          "title": "Azure Compute Services | Virtual Machine, VM Scale Set, App Service, Functions, Container Instances, Kubernetes Service",
+          "description": "Choose the right Azure compute service for an application or workload."
+        },
+        {
+          "id": "ep-10",
+          "number": 10,
+          "title": "Azure Networking Services | Virtual Network, Load Balancer, VPN Gateway, Application Gateway, CDN",
+          "description": "Connect resources and distribute or secure network traffic."
+        },
+        {
+          "id": "ep-11",
+          "number": 11,
+          "title": "Azure Storage Services | Blob, Disk, File and Archive",
+          "description": "Understand Azure's common storage services and their uses."
+        },
+        {
+          "id": "ep-12",
+          "number": 12,
+          "title": "Database Services | Cosmos DB, SQL Database, SQL DB for MySQL and PostgreSQL, SQL Managed Instance",
+          "description": "Select an Azure database service for different data workloads."
+        },
+        {
+          "id": "ep-13",
+          "number": 13,
+          "title": "Azure Marketplace",
+          "description": "Discover and deploy solutions and services from Microsoft and partners."
+        },
+        {
+          "id": "ep-14",
+          "number": 14,
+          "title": "Azure IoT Services | IoT Hub, IoT Central, Azure Sphere",
+          "description": "Connect, manage, and secure Internet of Things devices."
+        },
+        {
+          "id": "ep-15",
+          "number": 15,
+          "title": "Azure Big Data and Analytics Services | Synapse Analytics, HDInsight, Databricks",
+          "description": "Explore services for analytics and large-scale data processing."
+        },
+        {
+          "id": "ep-16",
+          "number": 16,
+          "title": "Azure Artificial Intelligence (AI) Services | Machine Learning Studio and Service",
+          "description": "Discover Azure AI and machine learning capabilities."
+        },
+        {
+          "id": "ep-17",
+          "number": 17,
+          "title": "Azure Serverless Computing Services | Functions, Logic Apps, Event Grid",
+          "description": "Build event-driven solutions without managing servers."
+        },
+        {
+          "id": "ep-18",
+          "number": 18,
+          "title": "Azure DevOps Solutions | Azure DevOps, DevTest Labs",
+          "description": "Understand development, delivery, and testing services."
+        }
+      ]
+    },
+    {
+      "id": "phase-3",
+      "number": "03",
+      "title": "Azure Management, Security & Governance",
+      "subtitle": "Learn how organizations operate, protect, and govern Azure resources.",
+      "description": "Practice management tools, network security, identity, access control, policy, and compliance concepts.",
+      "episodes": [
+        {
+          "id": "ep-19",
+          "number": 19,
+          "title": "Azure Tools | Portal, PowerShell, CLI and Cloud Shell",
+          "description": "Manage Azure resources using graphical and command-line tools."
+        },
+        {
+          "id": "ep-20",
+          "number": 20,
+          "title": "Azure Advisor",
+          "description": "Review recommendations for reliability, security, performance, cost, and operational excellence."
+        },
+        {
+          "id": "ep-21",
+          "number": 21,
+          "title": "Security Groups | NSG and ASG | Network Security Groups and Application Security Groups",
+          "description": "Control network traffic and group virtual machine workloads."
+        },
+        {
+          "id": "ep-22",
+          "number": 22,
+          "title": "User-defined Routes (UDR)",
+          "description": "Control how network traffic is routed in an Azure virtual network."
+        },
+        {
+          "id": "ep-23",
+          "number": 23,
+          "title": "Azure Firewall",
+          "description": "Understand managed network firewall protection."
+        },
+        {
+          "id": "ep-24",
+          "number": 24,
+          "title": "Azure DDoS Protection",
+          "description": "Protect applications and resources from distributed denial-of-service attacks."
+        },
+        {
+          "id": "ep-25",
+          "number": 25,
+          "title": "Azure Identity Services | Identity, Authentication, Authorization & Azure AD",
+          "description": "Understand identities and the difference between authentication and authorization."
+        },
+        {
+          "id": "ep-26",
+          "number": 26,
+          "title": "Azure Security Center and usage scenarios",
+          "description": "Improve security posture and protect cloud workloads."
+        },
+        {
+          "id": "ep-27",
+          "number": 27,
+          "title": "Key Vault",
+          "description": "Securely store and manage secrets, keys, and certificates."
+        },
+        {
+          "id": "ep-28",
+          "number": 28,
+          "title": "Role-Based Access Control (RBAC)",
+          "description": "Assign permissions to users, groups, and applications at a scope."
+        },
+        {
+          "id": "ep-29",
+          "number": 29,
+          "title": "Resource Locks",
+          "description": "Protect important resources from accidental deletion or modification."
+        },
+        {
+          "id": "ep-30",
+          "number": 30,
+          "title": "Tags",
+          "description": "Add metadata to resources for organization, reporting, and cost allocation."
+        },
+        {
+          "id": "ep-31",
+          "number": 31,
+          "title": "Azure Policy",
+          "description": "Audit and enforce organizational standards across resources."
+        },
+        {
+          "id": "ep-32",
+          "number": 32,
+          "title": "Azure Blueprints",
+          "description": "Understand the former blueprint service and its governance concepts."
+        },
+        {
+          "id": "ep-33",
+          "number": 33,
+          "title": "Cloud Adoption Framework",
+          "description": "Use Microsoft's guidance to plan and manage cloud adoption."
+        },
+        {
+          "id": "ep-34",
+          "number": 34,
+          "title": "Core tenets of Security, Privacy, and Compliance",
+          "description": "Review shared security, privacy, and compliance fundamentals."
+        }
+      ]
+    },
+    {
+      "id": "phase-4",
+      "number": "04",
+      "title": "Cost Management & Reliability",
+      "subtitle": "Prepare for pricing, optimization, SLAs, and service lifecycle questions.",
+      "description": "Understand the factors that affect Azure costs, how to plan and control spending, and how reliability is described.",
+      "episodes": [
+        {
+          "id": "ep-35",
+          "number": 35,
+          "title": "Cost Affecting Factors",
+          "description": "Identify the factors that influence the cost of Azure resources."
+        },
+        {
+          "id": "ep-36",
+          "number": 36,
+          "title": "Cost Reduction Methods and Pricing, TCO Calculators",
+          "description": "Explore pricing tools and estimate cloud costs and total cost of ownership."
+        },
+        {
+          "id": "ep-37",
+          "number": 37,
+          "title": "Azure Cost Management",
+          "description": "Monitor, analyze, budget, and optimize Azure spending."
+        },
+        {
+          "id": "ep-38",
+          "number": 38,
+          "title": "Azure Service Level Agreement (SLA)",
+          "description": "Understand service availability commitments and composite SLAs."
+        },
+        {
+          "id": "ep-39",
+          "number": 39,
+          "title": "Service lifecycle in Azure",
+          "description": "Understand preview and generally available service stages."
+        }
+      ]
+    }
+  ]
+}

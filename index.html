@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b4dbb">
+  <meta name="description" content="AZ-900 Azure Fundamentals phase-wise practice quizzes and mock tests.">
+  <title>AZ-900 Practice Portal</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar">
+      <a class="brand" href="#home" aria-label="AZ-900 Practice Portal home">
+        <span class="brand-mark">AZ</span>
+        <span><strong>AZ-900</strong><small>Practice Portal</small></span>
+      </a>
+      <div class="side-label">LEARNING</div>
+      <nav class="main-nav" aria-label="Main navigation">
+        <button class="nav-link active" data-view="home"><span class="nav-icon">▦</span> Dashboard</button>
+        <button class="nav-link" data-view="phases"><span class="nav-icon">▤</span> All phases</button>
+        <button class="nav-link" data-view="mock"><span class="nav-icon">◷</span> Mock tests</button>
+        <button class="nav-link" data-view="progress"><span class="nav-icon">▥</span> My progress</button>
+      </nav>
+      <div class="sidebar-note">
+        <div class="note-icon">✦</div>
+        <strong>Exam preparation</strong>
+        <p>Practice a little every day. Review every incorrect answer.</p>
+      </div>
+      <div class="sidebar-foot">AZURE FUNDAMENTALS<br><span>Student practice space</span></div>
+    </aside>
+
+    <main class="main-area">
+      <header class="topbar">
+        <button class="mobile-menu" id="mobileMenu" aria-label="Open menu">☰</button>
+        <div class="breadcrumbs" id="breadcrumbs">Learning space <span>/</span> Dashboard</div>
+        <div class="top-actions">
+          <span class="mode-chip"><i></i> Practice mode</span>
+          <div class="avatar" aria-label="Student">S</div>
+        </div>
+      </header>
+
+      <div class="content" id="app" aria-live="polite">
+        <div class="loading-state"><div class="spinner"></div> Loading your practice space…</div>
+      </div>
+      <footer class="footer">AZ-900 Practice Portal <span>•</span> Built for learning and revision</footer>
+    </main>
+  </div>
+  <script src="js/app.js" defer></script>
+</body>
+</html>
